@@ -1,0 +1,123 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test JH</title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Libraries -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
+
+  <body>
+    <div id="container">
+      <header>
+        <div id="container-avatar">
+          <img
+            src="https://res.cloudinary.com/docutv7ug/image/upload/v1659474667/test_ColoredBytes/Ellipse_1_wdkxgs.png"
+            alt="avatar"
+            id="avatar"
+          />
+        </div>
+        <div style="width: 427px; margin-left: 25px">
+          <h3 style="font-size: 14px; margin-bottom: 9px">Erik Dunlop</h3>
+          <span style="font-size: 10px; font-weight: 600"
+            >San Francisco, Carlifornia</span
+          >
+        </div>
+      </header>
+
+      <main>
+        <section>
+          <div>
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img
+                    src="https://picsum.photos/526/325?random=1"
+                    alt="carousel"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="https://picsum.photos/526/325?random=2"
+                    alt="carousel"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="https://picsum.photos/526/325?random=3"
+                    alt="carousel"
+                  />
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+
+              <div class="swiper-scrollbar"></div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div id="container-icons">
+            <img
+              src="https://res.cloudinary.com/docutv7ug/image/upload/v1659474586/test_ColoredBytes/Like_slk5qt.png"
+              id="like"
+            />
+            <img
+              src="https://res.cloudinary.com/docutv7ug/image/upload/v1659474585/test_ColoredBytes/Chat_jac4wt.png"
+            />
+            <img
+              src="https://res.cloudinary.com/docutv7ug/image/upload/v1659474586/test_ColoredBytes/send_ltikia.png"
+            />
+          </div>
+        </section>
+
+        <section id="description-and-comments">
+          <div>
+            <p>
+              <strong>Lucas Credie</strong> amet consectetur adipisicing elit.
+              Nisi, placeat. Dolorum itaque facilis accusantium. fugit id
+              voluptatem facere animi!
+            </p>
+            <p>
+              <strong>Comment </strong>consectetur adipiscing elit. Mi enim ut
+              eu cras ultrices eget et
+            </p>
+          </div>
+
+          <div id="comment" style="min-height: 100px"></div>
+
+          <div id="post-comment">
+            <input
+              id="commentAdd"
+              type="text"
+              class="none-decoration"
+              style="width: 334px"
+            />
+            <button
+              type="button"
+              onclick="catchComment()"
+              class="none-decoration"
+            >
+              Post
+            </button>
+          </div>
+        </section>
+      </main>
+
+      <br />
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
